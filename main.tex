@@ -38,7 +38,7 @@ firstnumber=\the\inputlineno]}%
 \definecolor{RawSienna}{cmyk}{0,0.72,1,0.45}
 \def\dill#1{\textcolor{RawSienna}{\textbf{Dill Alert: #1}}}
 
-\title{Southern Exposure: an overview of PV/Diesel in Malaysia and
+\title{Southern Exposure: an overview of PV/Diesel in Korea, Malaysia and
   Australia} 
 \author{Phil Maker\\
   \href{mailto:philip.maker@gmail.com}{\texttt{<philip.maker@gmail.com>}}
@@ -52,46 +52,43 @@ firstnumber=\the\inputlineno]}%
   \maketitle
   \vspace{-0.6cm}
   \begin{abstract}
-    \small A summary of efforts in Malaysia and Australia in the
-    PV/Diesel/Battery area with Malaysia mostly winning (no comment re Alaska).
+    \small A summary of some efforts in the PV/Diesel/Battery
+    area including solar forecasting.This is a meta talk which is
+    intended to mostly lead to other material (nothing original is
+    presented by the humble author).
   \end{abstract}
 \end{frame}
 
-\section{Introduction}
-\begin{frame}\frametitle{Introduction}
+\section{Overview}
+\begin{frame}\frametitle{Overview}
 Overview of PV/Diesel/Battery work in:
  
   \begin{enumerate}
+  \item Korea
   \item Australia
-  \item Malaysia
+  \item Malaysia 
   \item Sky Cameras and Solar Forecasting
   \end{enumerate}
-
+\pause
+Finally: the talk is sourced from a number 
+of kind people and is open source.
 \pause
 \vfill
 \begin{quote}
 ``Remember that every view,
-\pause
+\pause\\
 is based on where you are looking from'' -- Uncle Phil
 \end{quote}
-
-\end{frame}
-
-\begin{frame}\frametitle{PV for 1 week}
-\includegraphics[width=9cm]{figPv1.pdf}  
-\end{frame}
-
-\begin{frame}\frametitle{PV variation for 1 week}
-\includegraphics[width=9cm]{figPv2.pdf}  
 \end{frame}
 
 \section{Australia}
 \begin{frame}\frametitle{ARENA}
-  ARENA \href{www.arena.gov.au}{www.arena.gov.au} as approximately \$2.5 billion in funding to:
+  ARENA \href{www.arena.gov.au}{www.arena.gov.au} has approximately
+  \$2.5 billion in funding in order to:
   \begin{enumerate}
   \item Fund renewable energy projects
   \item Support research and development activities
-  \item Support activities to capture and share knowledge.
+  \item Support activities to capture and share knowledge
   \end{enumerate}
 \pause
 Projects larger than 26M\$:
@@ -112,14 +109,15 @@ Projects larger than 26M\$:
     \pause
     Intended to reach 60\% peak penetration/contribution with a fuel
     saving of around 15\%.
-  \item Single 1MW PV/Diesel/Battery site off (or 200\%
+  \item Single 1MW PV/Diesel/Battery system running diesel off (or 200\%
     penetration in Alaskan) with an intended fuel saving of around 50\%.
-  \item Aiming to change the organisation and the technology.
+  \item Aiming to change both the organisation and the technology.
   \end{itemize}
   \pause
   \begin{itemize}
-  \item Sky Camera Forecasting
-  \item Demand Management using Saturn South kit.
+  \item Medium Penetration Rollout
+  \item Sky Camera Forecasting (now casting)
+  \item Demand Management using Saturn South kit (see Tim Warren).
   \end{itemize}
   \pause
   Main point to note is that: 35 x anything is a lot, 35 x 2w for
@@ -127,21 +125,126 @@ Projects larger than 26M\$:
 
   Contact: \href{mailto:andrew.gray@powerwater.com.au}{Andrew Gray}
 \end{frame}
+
+% Malaysia
+\section{Malaysia and Indonesia}
+\begin{frame}\frametitle{Malaysia and Indonesia}
 
-\section{Malaysia}
-\begin{frame}\frametitle{Malaysia}
-An overview of Malaysia.including 70\% average penetration, etc. ...
+\begin{itemize}
+\item Sabah and Sarawak - lots of isolated native communities similar
+  to AK/AU-north.\pause
+\item Indonesia - similar challenges across 
+  a vast number of islands. \pause
+\item Government hybrid power systems running diesel with battery
+  storage.
+\pause 
+\end{itemize}
+\pause
+Its worth looking at:
+\begin{itemize}
+\item Optimal Power Solutions
+  (\href{www.optimal-power-solutions.com}{www.optimal-power-solutions.com})
+\item LEONICS (\href{www.leonics.com}{www.leonics.com}) 
+\pause
+\item Others...
+\end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{A wee system}
-\includegraphics[width=9cm]{optimal_power_macro_hybrid_mini_grid_line_diagram_ops.png}
+\begin{frame}\frametitle{Minigrid}
+\includegraphics[width=\hsize]{optimal_power_macro_hybrid_mini_grid_line_diagram_ops.png}
+\end{frame}
+
+% Korea
+\section{Korea}
+\begin{frame}\frametitle{KEPCO Gasado Island}
+  \begin{itemize}
+  \item Population of 286, in southern South Korea.
+  \item Load: 61..95..173 kW.
+  \item Aim: 99\% Renewable Energy, mixed PV, battery, diesel storage.
+  \item Running since last year. 
+  \end{itemize}
+\pause
+  \begin{enumerate}
+  \item KEPCO - Korean Electric Power Company (largest utility in S. Korea).
+  \item Contact/Author: Wookyu Chae
+    \href{wkchae@kepco.co.kr}{wkchae@kepco.co.kr} who kindly provided
+    the next few slides.
+  \item The complete presentation is available as well and is quite interesting.
+  \end{enumerate}
 \end{frame}
 
-\section{Sky Cameras}
+\begin{frame}\frametitle{Single Line Diagram}
+\includegraphics[width=\hsize]{KEPCO-SLD.pdf}
+\end{frame}
 
-\begin{frame}\frametitle{Sky Cameras}
-Yet another model for procurement (for us at least:\footnote{Thanks to
-  Tim Powe}).
+\begin{frame}\frametitle{Equipment}
+\includegraphics[width=\hsize]{KEPCO-kit.pdf}
+\end{frame}
+
+
+% nowcasting
+\section{Solar Nowcasting}
+
+\begin{frame}\frametitle{Solar nowcasting}
+  \begin{itemize}
+  \item Predicting solar output for the next 2-30 minutes.
+    \pause
+  \item Long history of research and development,
+    including projects in Darwin 15 years ago.
+    Vast number of projects on the big grid.
+    Australia has around 4 studies funded in the area.
+    \pause
+  \item Researchers: UCSD, NUS, CSIRO, ANU,...
+    \pause
+  \item   And a few commercial suppliers:
+    Fulcrum 3D, Pixel Sciences, Reuniwatt,...
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{PV for 1 week}
+There are good days and bad days:
+
+\includegraphics[width=9cm]{figPv1.pdf}
+\end{frame}
+
+\begin{frame}\frametitle{PV variation for 1 week}
+And a good days variation is less than spinning reserve:
+
+\includegraphics[width=9cm]{figPv2.pdf}  
+\end{frame}
+
+
+\begin{frame}\frametitle{So what}
+  \begin{itemize}
+  \item Assume 3 x 320kW generators with a minimum loading
+    of 50\% (160kW). 
+  \item Typical loading in 240..500kW range
+    and 350kW PV installed. 
+  \item Assuming 100\% PV coverage (no storage).
+    \pause
+  \item So without/with a sky camera doing now casting we get:
+  \begin{center}
+    \begin{tabular}[c]{|l|l|l|l|l|l|l|} 
+      \hline
+      SkyCam & Load kW & Gens & Gen kW & Pv kW & L/h & L/kWh \\
+      \hline
+      No      & 350     & 2     & 320   & 30    & 90 & 0.26 \\
+      Yes     & 350     & 1     & 160   & 190   & 45 & 0.13 \\
+      \hline
+      No      & 500     & 2     & 320   & 180   & 90 & 0.18 \\
+      Yes     & 500     & 1     & 160   & 340   & 45 & 0.09 \\
+      \hline
+    \end{tabular}
+  \end{center}
+  \pause
+  \item So 200 d/y for 6h/d saving 45L/h at 1\$/L is \pause
+    54k\$/y \pause by 50\% for luck = reasonable amount.
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}\frametitle{SkyCam Procurement}
+Yet another model for procurement (for us at least:\footnote{Thanks to Tim Powe}).
   \begin{itemize}
   \item 3 x Trial Systems at a target price of 15k\$.for 3..6 months.
     \pause
@@ -150,31 +253,64 @@ Yet another model for procurement (for us at least:\footnote{Thanks to
     \item Trial system for 12 months.
     \item Rollout out of from 1..10 units over the next 2 years.
     \end{itemize}
+  \item The plan is for the trial results and methods to be made
+    public (anyone interested).
   \end{itemize}
+\vfill
+  \begin{quote}
+    ``Amateur project managers talk about strategy, \\
+    experts talk about procurement (or logistics)'' -- Unknown
+  \end{quote}
 \end{frame}
 
-\begin{frame}\frametitle{Sky Cameras: why}
-Why we do it, who does it and how they do it.
-
-All based on industrial input.
+
+% Fulcrum
+\begin{frame}\frametitle{Fulcrum 3D}
+\includegraphics[width=\hsize]{Fulcrum-s1.pdf}
+\end{frame}
+\begin{frame}\frametitle{Fulcrum 3D}
+\includegraphics[width=\hsize]{Fulcrum-s2.pdf}
+\end{frame}
+\begin{frame}\frametitle{Fulcrum 3D}
+\includegraphics[width=\hsize]{Fulcrum-s3.pdf}
+\end{frame}
+
+% Pixel Science
+\begin{frame}\frametitle{Pixel Science}
+\includegraphics[width=\hsize]{PixelScience.pdf}
+\end{frame}
+
+% Reuniwatt
+\begin{frame}\frametitle{Reuniwatt}
+\includegraphics[width=\hsize]{Reuniwatt_Nowcasting1.pdf}
 \end{frame}
 
-\begin{frame}\frametitle{So who to talk to}
-Who are the suppliers
+\begin{frame}\frametitle{Reuniwatt}
+\includegraphics[width=\hsize]{Reuniwatt_Nowcasting2.pdf}
 \end{frame}
 
-\section{Conclusion}
-\begin{frame}\frametitle{Conclusion}
-Nothing too controversial but:
-\begin{itemize}
-\item References to various projects.
-\end{itemize}
+\section{Lessons Learnt}
+\begin{frame}\frametitle{Lessons Learnt}
+
+\begin{enumerate}
+\item Solar Forecasting \emph{may} be an answer for part of the
+  problem. Results to be available next year.
 \pause
+\item There are a lot of interesting experiences from the 
+  southern part of the world in hybrid systems.
+\pause
+\item Development evaluation, procurement, and testing 
+  are all required for successful systems.
+\pause  
+\item Be very careful when you say X is the biggest for any X.
+\end{enumerate}
+\pause
+\vfill
 \begin{quote}
 ``Economics are the method; 
 
 \pause
-the object is to change the heart and soul'' -- Margaret Thatcher
+the object is to change the heart and soul'' -- Thatcher
 \end{quote}
 \end{frame}
 \end{document}
